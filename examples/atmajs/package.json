@@ -6,6 +6,12 @@
     "maskjs": "^0.52.0",
     "ruta": "^0.1.16",
     "todomvc-app-css": "^2.0.1",
-    "todomvc-common": "^1.0.2"
-  }
+    "todomvc-common": "^1.0.2",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
