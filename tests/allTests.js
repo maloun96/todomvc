@@ -12,6 +12,8 @@ if (list.length === 0) {
 	console.log('You have either requested an unknown or an un-supported framework');
 }
 
+// Aici mAsa o scris
+//
 // run the tests for each framework
 list.forEach(function (framework) {
 	testSuite.todoMVCTest(
