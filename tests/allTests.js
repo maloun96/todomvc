@@ -7,6 +7,7 @@ var rootUrl = 'http://localhost:8000/';
 
 var list = frameworkPathLookup(argv.framework);
 
+//Test
 if (list.length === 0) {
 	console.log('You have either requested an unknown or an un-supported framework');
 }
