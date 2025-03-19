@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - blocks > express > debug:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > send > debug:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > serve-static > send > debug:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > finalhandler > debug:
+        patched: '2018-11-21T01:49:01.614Z'
+  'npm:mime:20170907':
+    - blocks > express > send > mime:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > serve-static > send > mime:
+        patched: '2018-11-21T01:49:01.614Z'
+  'npm:ms:20170412':
+    - blocks > express > serve-static > send > ms:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > send > ms:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > finalhandler > debug > ms:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > send > debug > ms:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > serve-static > send > debug > ms:
+        patched: '2018-11-21T01:49:01.614Z'
+    - blocks > express > debug > ms:
+        patched: '2018-11-21T01:49:01.614Z'
