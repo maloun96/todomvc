@@ -1,9 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "lint": "cd .. && jscs"
+    "lint": "cd .. && jscs",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "jscs": "^2.7.0"
-  }
+    "jscs": "^2.7.0",
+    "snyk": "^1.104.2"
+  },
+  "snyk": true
 }
